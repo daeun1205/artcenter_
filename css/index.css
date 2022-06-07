@@ -684,7 +684,7 @@ footer{
     .footer_b_l li:last-child{
         width: 120px;
     }
-    .footer_b_r p{
+    .footer_b_r{
         font-size: 15px;
     }
 }
@@ -796,7 +796,7 @@ footer{
         justify-content: center;
         margin-bottom: 10px;
     }
-    .footer_b_r p{
+    .footer_b_r{
         text-align: center;
     }
 }
@@ -1118,7 +1118,7 @@ footer{
     .footer_b_l li:last-child{
         width: 80px;
     }
-    .footer_b_r p{
+    .footer_b_r{
         font-size: 12px;
     }
 }
@@ -1172,11 +1172,19 @@ footer{
     }
     /* 아이콘 */
     .icon{
-        margin-right: 75px;
+        margin-right: 60px;
     }
     .icon span{
         font-size: 14px;
         margin-right: 10px;
+    }
+    .sns .icon a{
+        width: 65px;
+        height: 65px;
+        line-height: 90px;
+    }
+    .icon a svg{
+        width: 50px;
     }
     /* 공지사항/티켓오픈 */
     .tab_title{
@@ -1260,7 +1268,7 @@ footer{
     .footer_b_l li:last-child{
         width: 65px;
     }
-    .footer_b_r p{
+    .footer_b_r{
         font-size: 10px;
     }
 }
