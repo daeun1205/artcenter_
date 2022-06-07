@@ -361,6 +361,10 @@ article{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    transition: 0.5s;
+}
+.list p:hover a{
+    color: #979797;
 }
 .notice_date{
     color: #222;
