@@ -187,6 +187,12 @@ input[id="hamburger"]{
     text-align: center;
     margin-top: 15px;
 }
+.swiper-button-prev, .swiper-rtl .swiper-button-next,.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    color: #1a1a1e !important;
+}
+.swiper{
+    /* margin: 0 80px !important; */
+}
 /****************** hover하면 나타남 ******************/
 .poster:hover .caption{
     opacity: 1;
@@ -678,7 +684,7 @@ footer{
     .footer_b_l li:last-child{
         width: 120px;
     }
-    .footer_b_r{
+    .footer_b_r p{
         font-size: 15px;
     }
 }
@@ -790,7 +796,7 @@ footer{
         justify-content: center;
         margin-bottom: 10px;
     }
-    .footer_b_r{
+    .footer_b_r p{
         text-align: center;
     }
 }
@@ -799,6 +805,9 @@ footer{
     /* 배너 */
     .menu_wrap li:hover a{
         border-bottom: unset;
+    }
+    .banner_img:hover{
+        transform: unset;
     }
     .log{
         display: none;
@@ -1109,7 +1118,7 @@ footer{
     .footer_b_l li:last-child{
         width: 80px;
     }
-    .footer_b_r{
+    .footer_b_r p{
         font-size: 12px;
     }
 }
@@ -1142,7 +1151,7 @@ footer{
     }
     .banner_txt{
         margin: unset;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
     .place{
         width: 120px;
@@ -1243,7 +1252,7 @@ footer{
         padding: 10px;
     }
     .footer_b_l li{
-        font-size: 6px;
+        /* font-size: 6px; */
     }
     .footer_b_l li span{
         margin: 0 5px;
@@ -1251,7 +1260,7 @@ footer{
     .footer_b_l li:last-child{
         width: 65px;
     }
-    .footer_b_r{
+    .footer_b_r p{
         font-size: 10px;
     }
 }
