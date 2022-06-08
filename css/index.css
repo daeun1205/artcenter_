@@ -1176,7 +1176,6 @@ footer{
     }
     .icon span{
         font-size: 14px;
-        margin-right: 10px;
     }
     .sns .icon a{
         width: 65px;
@@ -1260,7 +1259,7 @@ footer{
         padding: 10px;
     }
     .footer_b_l li{
-        /* font-size: 6px; */
+        font-size: 11px;
     }
     .footer_b_l li span{
         margin: 0 5px;
