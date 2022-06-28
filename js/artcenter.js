@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
       var swiper = new Swiper(".firstSwiper", {
         effect: "fade",
         direction: "vertical",
@@ -14,35 +15,25 @@ $(document).ready(function(){
         },
       });
 
-      var swiper = new Swiper(".secondSwiper", {
-        // slidesPerView: 3,
-        // // spaceBetween: 30,
-        // slidesPerGroup: 1,
-        // loop: true,
-        // autoplay: {
-        //   delay: 1500,
-        // },
+      var swiper = new Swiper('.secondSwiper', {
         loop: true,
         centeredSlides: true,
         slidesPerView: 'auto',
         slideToClickedSlide: true,
-        // effect: 'coverflow',
+        effect: 'coverflow',
+
+        autoplay: {
+          delay: 2500,
+        },
         coverflowEffect: {
           rotate: 0,
           slideShadows: false,
         },
-
-        scrollbar: {
-          el: ".swiper-scrollbar",
-          clickable: true,
-          draggable: true,
-          dragSize: 152,
-        },
-
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+
       });
 
       $('.tab_title').click(function(){
@@ -60,9 +51,4 @@ $(document).ready(function(){
         
       });
       
-
-
-
-
-
 });//end
