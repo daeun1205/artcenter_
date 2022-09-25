@@ -411,6 +411,9 @@ article{
     width: 750px;
     height: 550px;
 }
+.map_txt{
+    font-size: 18px;
+}
 .map_inner_txt{
     display: flex;
     margin-bottom: 30px;
@@ -427,7 +430,6 @@ article{
 .map_inner_txt a .address{
     margin-right: 40px;
     color: #2a365c;
-    font-size: 18px;
 }
 .map_inner_txt a .number{
     margin-right: 97px;
@@ -549,8 +551,8 @@ footer{
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 40px;
-    right: 50px;
+    bottom: 30px;
+    right: 30px;
     z-index: 999;
     cursor: pointer;
 }
@@ -689,13 +691,7 @@ footer{
     .map_inner_txt span{
         height: 25px;
     }
-    .map_inner_txt a .address{
-        font-size: 17px;
-    }
-    .map_inner_txt a .number{
-        font-size: 17px;
-    }
-    .map_inner_txt a .building{
+    .map_txt{
         font-size: 17px;
     }
     /* 아카데미/대관문의 */
@@ -1019,6 +1015,9 @@ footer{
     /* 지도 */
     .map_img iframe{
         width: 700px;
+    }
+    .map_txt{
+        font-size: 16px;
     }
     /* 아카데미/대관문의 */
     .content_txt{
